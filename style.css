@@ -1,0 +1,18 @@
+.btn-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.container-half {
+    display: flex;
+}
+
+.container-half > div, .container-half > form {
+    width: 50%;
+}
+
+.container-half > #img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
